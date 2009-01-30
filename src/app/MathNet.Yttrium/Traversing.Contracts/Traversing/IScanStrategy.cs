@@ -1,4 +1,4 @@
-#region Math.NET Yttrium (GPL) by Christoph Ruegg
+^#region Math.NET Yttrium (GPL) by Christoph Ruegg
 // Math.NET Yttrium, part of the Math.NET Project
 // http://mathnet.opensourcedotnet.info
 //
