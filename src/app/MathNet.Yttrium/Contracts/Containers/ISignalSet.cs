@@ -26,7 +26,7 @@ using MathNet.Numerics;
 
 namespace MathNet.Symbolics.Backend.Containers
 {
-    public interface ISignalSet : ISet<Signal>
+    public interface ISignalSet : MathNet.Numerics.ISet<Signal>
     {
         InstanceIdSet ConvertAllToInstanceIds(Converter<Signal, Guid> convert);
         InstanceIdSet ConvertAllToInstanceIds();
