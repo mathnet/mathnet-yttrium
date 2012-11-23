@@ -1,6 +1,12 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{F75A5EAF-5C00-4F8C-AA9D-0745AA7E210D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yttrium", "src\app\MathNet.Yttrium\Library\Yttrium.csproj", "{CAB86B17-68FA-4081-B687-DB71B74BAF79}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
@@ -152,12 +158,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yttrium.Mediator.Contracts"
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yttrium.Mediator.Service", "src\app\MathNet.Yttrium\Mediator.Service\Yttrium.Mediator.Service.csproj", "{5ADA1A0C-25A8-4B09-8956-AF0C94575D22}"
-	ProjectSection(WebsiteProperties) = preProject
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.Debug = "False"
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{F75A5EAF-5C00-4F8C-AA9D-0745AA7E210D}"
 	ProjectSection(WebsiteProperties) = preProject
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.Debug = "False"
@@ -326,10 +326,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{F1B95DE1-5170-4C65-92A4-CFE69256D6E1} = {F75A5EAF-5C00-4F8C-AA9D-0745AA7E210D}
-		{7D33EAA2-C873-4BC0-88C5-FA350CB4B67A} = {F75A5EAF-5C00-4F8C-AA9D-0745AA7E210D}
-		{5D5C5661-1B83-4C25-AC7A-C7AED7FFC9DD} = {F75A5EAF-5C00-4F8C-AA9D-0745AA7E210D}
 	EndGlobalSection
 EndGlobal
