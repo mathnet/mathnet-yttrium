@@ -1,8 +1,8 @@
 #region Math.NET Yttrium (GPL) by Christoph Ruegg
 // Math.NET Yttrium, part of the Math.NET Project
-// http://mathnet.opensourcedotnet.info
+// https://yttrium.mathdotnet.com
 //
-// Copyright (c) 2001-2007, Christoph Rüegg,  http://christoph.ruegg.name
+// Copyright (c) 2001-2007, Christoph Rï¿½egg,  http://christoph.ruegg.name
 //						
 // This program is free software; you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -36,7 +36,7 @@ namespace MathNet.Symbolics.Simulation
 
         IScheduler GetCurrentScheduler();
 
-        /// <remarks>see http://mathnet.opensourcedotnet.info/doc/YttriumMathContext.ashx for more details.</remarks>
+        /// <remarks>see https://yttrium.mathdotnet.com/doc/YttriumMathContext.ashx for more details.</remarks>
         void CreateSimulationApartement(IScheduler scheduler);
     }
 }

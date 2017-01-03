@@ -1,5 +1,5 @@
 ﻿// Math.NET Yttrium, part of the Math.NET Project
-// http://mathnet.opensourcedotnet.info
+// https://yttrium.mathdotnet.com
 //
 // Copyright (c) 2001-2007, Christoph Rüegg,  http://christoph.ruegg.name
 //						

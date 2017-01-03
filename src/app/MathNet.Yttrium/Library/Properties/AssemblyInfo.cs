@@ -1,5 +1,5 @@
 ﻿// Math.NET Yttrium, part of the Math.NET Project
-// http://mathnet.opensourcedotnet.info
+// https://yttrium.mathdotnet.com
 //
 // Copyright (c) 2001-2007, Christoph Rüegg,  http://christoph.ruegg.name
 //						
@@ -24,7 +24,7 @@ using System.Runtime.InteropServices;
 using System.Security.Permissions;
 
 [assembly: AssemblyTitle("Math.NET Yttrium: Computer Algebra Library")]
-[assembly: AssemblyDescription("http://mathnet.opensourcedotnet.info/")]
+[assembly: AssemblyDescription("https://yttrium.mathdotnet.com/")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Math.NET Project")]
 [assembly: AssemblyProduct("Math.NET")]
