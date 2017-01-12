@@ -28,7 +28,7 @@ using MathNet.Numerics;
 
 namespace MathNet.Symbolics.Patterns.Toolkit
 {
-    public class Group : Collection<Tuple<Signal, Port>>
+    public class Group : Collection<MathNet.Numerics.Tuple<Signal, Port>>
     {
         private string _label;
         public Group(string label)
@@ -42,9 +42,9 @@ namespace MathNet.Symbolics.Patterns.Toolkit
             get { return _label; }
         }
 
-        public void AddRange(IEnumerable<Tuple<Signal, Port>> range)
+        public void AddRange(IEnumerable<MathNet.Numerics.Tuple<Signal, Port>> range)
         {
-            foreach(Tuple<Signal, Port> item in range)
+            foreach(MathNet.Numerics.Tuple<Signal, Port> item in range)
                 Add(item);
         }
     }

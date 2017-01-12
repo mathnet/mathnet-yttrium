@@ -118,7 +118,7 @@ namespace MathNet.Symbolics.Patterns.Toolkit
                 // Check Group Axis
                 string label;
                 if(_groupAxis.TryGetValue(m.PatternId, out label))
-                    m.AppendGroup(label, new Tuple<Signal, Port>(output, port));
+                    m.AppendGroup(label, new MathNet.Numerics.Tuple<Signal, Port>(output, port));
 
                 return m;
             }
@@ -133,7 +133,7 @@ namespace MathNet.Symbolics.Patterns.Toolkit
                     // Check Group Axis
                     string label;
                     if(_groupAxis.TryGetValue(m.PatternId, out label))
-                        m.AppendGroup(label, new Tuple<Signal, Port>(output, port));
+                        m.AppendGroup(label, new MathNet.Numerics.Tuple<Signal, Port>(output, port));
 
                     return m;
                 }
@@ -149,7 +149,7 @@ namespace MathNet.Symbolics.Patterns.Toolkit
                     // Check Group Axis
                     string label;
                     if(_groupAxis.TryGetValue(m.PatternId, out label))
-                        m.AppendGroup(label, new Tuple<Signal, Port>(output, port));
+                        m.AppendGroup(label, new MathNet.Numerics.Tuple<Signal, Port>(output, port));
 
                     return m;
                 }
@@ -190,7 +190,7 @@ namespace MathNet.Symbolics.Patterns.Toolkit
             {
                 Match m;
                 if(res.TryGetValue(group.Key, out m))
-                    m.AppendGroup(group.Value, new Tuple<Signal, Port>(output, port));
+                    m.AppendGroup(group.Value, new MathNet.Numerics.Tuple<Signal, Port>(output, port));
             }
 
             return res;

@@ -50,7 +50,7 @@ namespace MathNet.Symbolics.Patterns.Toolkit
             return Dictionary.TryGetValue(label, out group);
         }
 
-        public void Append(string label, Tuple<Signal, Port> value)
+        public void Append(string label, MathNet.Numerics.Tuple<Signal, Port> value)
         {
             Group group;
             if(!TryGetValue(label, out group))
@@ -60,7 +60,7 @@ namespace MathNet.Symbolics.Patterns.Toolkit
             }
             group.Add(value);
         }
-        public void Append(string label, IEnumerable<Tuple<Signal, Port>> values)
+        public void Append(string label, IEnumerable<MathNet.Numerics.Tuple<Signal, Port>> values)
         {
             Group group;
             if(!TryGetValue(label, out group))
